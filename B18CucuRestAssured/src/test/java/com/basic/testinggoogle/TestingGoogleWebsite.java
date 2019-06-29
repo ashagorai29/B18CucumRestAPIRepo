@@ -1,7 +1,7 @@
 package com.basic.testinggoogle;
 
 import org.junit.Assert;
-import org.testng.annotations.Test;
+
 
 
 import io.restassured.RestAssured;
@@ -16,7 +16,7 @@ public class TestingGoogleWebsite {
 //		System.out.println("Status Code"+startCode);
 //	}
 
-	@Test
+
 	public void googleTest() {
 		
 		io.restassured.response.Response res=RestAssured.given().get("https://www.google.com/");
